@@ -1,0 +1,74 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KAVI</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<style>
+* {
+  box-sizing: border-box;
+}
+photo{
+  border-radius: 50px;
+  float: left;
+}
+p{
+  text-align: left;
+  float: left;
+}
+img{
+  border-radius: 50%;
+}
+.box{
+  box-sizing: content-box;
+  border-radius: 25px;
+  float: left;
+  width: 150px;
+  height: 70px;
+}
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 100px;
+  padding: 50px;
+  height: 400px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="row" style="background-size: cover; background-image: url(bgfeather.png);">
+  <div class="column" style="border-right: 1px rgb(226, 223, 223) dashed; background-color: rgba(252, 252, 125, 0.788) ">
+    <p><img src="im.png" alt="Logo" style="width: 100px; height: 100px; margin-right: 20px;">
+    <h2>New Suite</h2>
+    <h1>KAVI BLOG</h1>
+    <h3>All in One Blog</h3></p>
+    <p>I am going to run the entire setup in kavi page with the codings in Visual studio <br>
+        decided to test the HTML skills and improve the knowledge in this field so that <br>
+        I can be able to work on Web development field in an organisation.</p>
+    <div class="box" style="background-color: rgb(247, 124, 124);width: 150px; height: 50px; padding-left: 40px;padding-bottom: 10px; margin-bottom:40px;margin-left: 50px;">
+        <h4> Try Blog Once  > </h4></div>
+    </div>
+  <div class="column" style="background-color: rgba(252, 252, 125, 0.788)">
+    <h2><img src="quotes.png" alt="Quote" style="width: 50px;"> </h2>
+    <p>"Whenever I am in a difficult situation where there seems to be no way out, <br>
+        I think about all the times I have been in such situations and say to myself, <br>
+        I did it before, so I can do it."
+    </p>
+    <p><img src="photo.png" alt="photo" style="width: 90px; height: 110px;margin-left: 20px; margin-right: 30px " >
+      <h2>  KAVISANGAVI</h2>
+      <h3> CEO, Kavi's Blog </h3>
+      <h3> Owner of Sai Xerox</h3>
+    </p>
+  </div>
+</div>
+</body>
+</html>
